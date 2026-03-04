@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2d7cff"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="420" height="120" rx="22" fill="#0b1020"/>
+  <circle cx="74" cy="60" r="34" fill="url(#g)"/>
+  <path d="M74 34 L86 58 L74 54 L62 58 Z" fill="#fff" opacity="0.9"/>
+  <text x="130" y="58" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#eaf0ff" font-weight="700">Evolua+ Profissões</text>
+  <text x="130" y="84" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#a9b4d0">Substitua por sua logo em assets/img/logo.svg</text>
+</svg>
