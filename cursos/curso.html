@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Cursos — Evolua+ Profissões</title>
+  <title>Curso — Evolua+ Profissões</title>
   <meta name="description" content="Evolua+ Profissões — cursos, parceiros e biblioteca digital."/>
   <link rel="icon" href="../assets/img/logo.png"/>
   <link rel="stylesheet" href="../assets/css/styles.css"/>
@@ -35,26 +35,9 @@
   <main class="container">
     
 <section class="section">
-  <div class="kicker">📚 Catálogo de cursos</div>
-  <h1 style="margin-top:10px">Cursos por áreas</h1>
-  <p class="lead">Use a busca e o filtro para encontrar rapidamente. Clique em um curso para abrir a página completa.</p>
-
-  <div class="card toolbar">
-    <input id="q" class="input" style="flex:1; min-width:220px" placeholder="Buscar (ex.: Excel, Designer, Programação)"/>
-    <select id="area" style="min-width:220px"></select>
-    <div class="badge" style="margin-left:auto">📌 <span id="count">0 curso(s)</span></div>
-  </div>
-
-  <div class="grid" id="coursesGrid" style="margin-top:14px"></div>
-  <div id="empty" class="notice" style="display:none; margin-top:14px">Nenhum curso encontrado com esse filtro.</div>
-
-  <div class="notice" style="margin-top:14px">
-    <b style="color:var(--text)">Quer cadastrar mais cursos?</b><br/>
-    Edite o arquivo <span class="kbd">data/cursos.json</span> e duplique um item existente.
-  </div>
+  <div id="courseDetail"></div>
 </section>
-
-<script src="../assets/js/cursos.js"></script>
+<script src="../assets/js/curso-detalhe.js"></script>
 
   </main>
 
