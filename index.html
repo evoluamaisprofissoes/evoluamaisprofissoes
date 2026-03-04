@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Evolua+ Profissões — Site da Escola</title>
+  <meta name="description" content="Evolua+ Profissões — cursos, parceiros e biblioteca digital."/>
+  <link rel="icon" href="assets/img/logo.png"/>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/img/logo.png" alt="Evolua+ Profissões"/>
+        <div class="title">
+          <b>Evolua+ Profissões</b>
+          <span>Seja a sua melhor versão</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="cursos/index.html">Cursos</a>
+        <a href="parceiros/index.html">Parceiros</a>
+        <a href="biblioteca/index.html">Biblioteca</a>
+        <a href="empresas-parceiras/index.html">Empresas</a>
+        <a href="contato/index.html">Contato</a>
+      </nav>
+      <a class="btn btn-green" id="waTop" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </header>
+
+  <main class="container">
+    
+<section class="hero">
+  <div class="hero-grid">
+    <div class="card hero-card">
+      <div class="kicker">🚀 Evolua+ Profissões · Catálogo 2026</div>
+      <h1>Seu próximo passo profissional começa aqui.</h1>
+      <p class="lead">
+        Site pronto para GitHub Pages, com páginas, catálogo de cursos por área e botão direto para o WhatsApp.
+        Você só troca a logo e, se quiser, adiciona mais cursos no arquivo <span class="kbd">data/cursos.json</span>.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="cursos/index.html">Ver cursos por área</a>
+        <a class="btn" href="https://wa.me/5565996834279?text=Olá! Quero falar com a Evolua+ Profissões.">Falar no WhatsApp</a>
+      </div>
+      <div class="breadcrumbs">
+        Dica: para editar cursos, abra <span class="kbd">data/cursos.json</span> no GitHub e clique em <span class="kbd">Edit</span>.
+      </div>
+    </div>
+
+    <div class="card panel">
+      <div class="badges">
+        <div class="badge">✅ Páginas (Cursos, Parceiros, Biblioteca, Empresas, Contato)</div>
+        <div class="badge">✅ Catálogo com busca + filtro por área</div>
+        <div class="badge">✅ Página individual do curso</div>
+        <div class="badge">✅ CTA WhatsApp em todo o site</div>
+      </div>
+      <div class="notice" style="margin-top:14px">
+        <b style="color:var(--text)">Próximo passo:</b><br/>
+        1) Suba todos os arquivos no GitHub<br/>
+        2) Ative o GitHub Pages<br/>
+        3) Troque a logo em <span class="kbd">assets/img/logo.png</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Destaques do catálogo</h2>
+  <p>Alguns cursos já cadastrados — clique para ver detalhes.</p>
+  <div class="grid" id="coursesGrid"></div>
+  <div id="empty" class="notice" style="display:none">Nenhum curso encontrado.</div>
+</section>
+
+<script src="assets/js/cursos.js"></script>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container row">
+      <div>
+        <b style="color:var(--text)">Evolua+ Profissões</b><br/>
+        <span>Site hospedado no GitHub Pages.</span>
+      </div>
+      <div>
+        <span>Atendimento via WhatsApp: <span class="kbd">65 99683-4279</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/common.js"></script>
+  <script>
+    document.getElementById('waTop').href = waLink();
+  </script>
+</body>
+</html>
